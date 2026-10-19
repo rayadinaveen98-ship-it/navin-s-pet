@@ -1,0 +1,33 @@
+# Navin's Pet — .NET/WPF source and local Windows artifacts
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+**/publish/
+**/artifacts/
+*.user
+*.suo
+*.pdb
+*.tmp
+*.bak
+*.cache
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+# Never commit private local reminder/user data.
+local-data/
+reminders.json
+pet-profile.json
+# Ignore generated audio/model caches; source assets live under design/.
+*.onnx
+*.wav
+*.mp3
+*.mp4
+# GitHub CI outputs should use Actions artifacts rather than tracked binaries.
+*.exe
+*.msix
+*.msi
+*.zip
