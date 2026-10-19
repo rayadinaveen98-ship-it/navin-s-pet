@@ -53,6 +53,8 @@ No Android implementation is in scope for the initial Navin's Pet Windows milest
 - [Development roadmap](docs/ROADMAP.md)
 - [Quality / acceptance checklist](docs/QA_ACCEPTANCE.md)
 - [Project status and continuity](docs/PROJECT_STATUS.md)
+- [Concept 3 tail-pivot motion proof and remaining problems](docs/MOTION_PROTOTYPE_V02.md)
+- [Rigid-tail animation reference implementation](tools/motion/tail_pivot_v02.py)
 - [Puppy original art study and review](design/puppy-01/)
 
 ## Development phases
