@@ -69,3 +69,12 @@ The timed scene combines three 160–180 ms reconstructed eyelid blinks, very sm
 **Important quality gate remains open:** Blink reconstruction looks soft/painted over, rather than professionally layered; fur seam and occlusion from the flattened source image may be imperfect. Render feasibility does not mean the fully lifelike character goal is achieved. Do not declare the idle animation visually approved until user acceptance. Next: hand-authored eyelid, under-head, under-tail and body layers consistent with locked Concept 3, then re-render and integrate into Windows.
 
 See [idle V03 report](IDLE_MOTION_V03_REPORT.md) for precise limitations, QA and the path forward. All development stays solely in this repository.
+
+
+## 2026-10-19 — Concept 3 textured eyelid / face V04 study
+- **Rendered and verified** 8.0s H.264 760x930 @ 30fps (240 frames), plus GIF and eye-pose QA images, preserving the user-locked Concept 3 identity.
+- Replaced prior pupil-inpainting blur with experimental fur-texture eyelids derived from adjacent painted fur. A small closed-lid crease is visible; micro head tilt and prior rigid tail swing remain.
+- QA: moving face ROI differs by ~9 intensity units at blinks, paw region remains essentially unchanged (~0.11–0.16, codec noise).
+- Reproducible standalone rendering script, exact reference sheet, video/GIF and QC images provided in conversation ZIP: \`Navins_Pet_Concept3_Facial_V04_Source_and_Preview.zip\`, CRC verified, SHA256 \`b73dc6524b073cceb801c0e38e184e562d25fab2905d66ffa024151575ac5cf6\`.
+- Source reusable eyelid pose tool now committed to \`tools/motion/eyelid_pose_v04.py\`. Technical report at [V04 report](IDLE_MOTION_V04_REPORT.md).
+- **Art acceptance still open:** eyelids are fur-texture compositing from a flat sheet, not properly artist-painted separate rig parts. No real WPF animation, walking, speech or installer claim. Need art segmentation and real desktop proof after review.
