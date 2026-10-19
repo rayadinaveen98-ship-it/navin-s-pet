@@ -4,6 +4,17 @@
 **Platform:** Windows first.  
 **Scope principle:** finish a **single puppy's complete real motion experience** before expanding pets or settings.
 
+## Next gate — Production-art and animation-tool reset (added 2026-10-19)
+- [x] Retain locked Concept 3 as visual reference. V04 motion rejected by user.
+- [x] Document why flattened-image warping and AI frame reconstruction failed.
+- [ ] Create a professionally painted **layered** character master and consistent open/half/closed eye shapes.
+- [ ] Run a trial animation test in Moho Pro; compare Spine if output/integration is unsuitable.
+- [ ] Produce and review a real 3–5 second idle rig demonstration before advancing.
+- [ ] Export and test a lossless transparency-supported PNG sequence inside Windows.
+- [ ] Do not purchase software before need, budget and trial-quality acceptance.
+
+See [Animation Pipeline Reset](ANIMATION_PIPELINE_RESET.md).
+
 ## Phase 1 — Original puppy art foundation
 - [x] Lock project identity and core experience in independent repository.
 - [x] Product/architecture/quality specifications drafted.
