@@ -48,3 +48,13 @@ A premium aesthetic illustrated puppy (later cat and butterfly) walks on to the 
 
 ## Last known progress
 Repository initialized with phase-1 specification and draft SVG. Project is ready for art refinement and dedicated Windows motion prototype. No Windows build exists yet.
+
+
+## 2026-10-19 — Targeted tail motion proof v02
+- A real **5.2-second MP4 and looping GIF** generated using the user's locked Concept 3 puppy.
+- Replaced prior rubber-like pixel deformation with **rigid pivoted tail sprite rotation**; rest of body and paws held stationary.
+- Objective file check: **156 frames at 30 fps**, H.264 820×960. Pixel differences are concentrated near tail, not the head/paws.
+- Tested rendering pipeline uses source from the conversation-delivered source/video ZIP. A simplified standalone reference implementation is committed as `tools/motion/tail_pivot_v02.py`.
+- See `docs/MOTION_PROTOTYPE_V02.md` for caveats, exact scope, numerical verification and next tasks.
+- **Not yet accepted as final art/animation:** masking from flat art leaves potential fine fringe; blink, head movement, breathing, walking, natural voice and actual WPF app still pending.
+- Original approved concept sheet and demo binaries are in the conversation artifact ZIP, NOT tracked as GitHub binary assets yet.
