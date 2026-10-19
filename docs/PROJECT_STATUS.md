@@ -7,6 +7,11 @@
 **Status:** Phase 1 original-art **draft foundation**, not working application  
 **Default branch:** main
 
+## Latest decision — 2026-10-19: reject V04 motion and reset pipeline
+**User review:** V04 still looks uneven and imperfect; no V01–V04 motion is visually approved. **Approved Concept 3 character artwork remains locked as visual reference**. Stop deriving production head/eye/tail motion by inpainting, piecewise masks or global 2D pixel warping of that flattened sheet.
+
+**Next route:** genuinely author animation-ready independent painted layers; trial Krita/Photoshop-like layer tools and **Moho Pro** rigging; evaluate **Spine** as alternate. Do not buy tools or call motion complete without normal/quarter-speed actual rigged video acceptance. Export transparent PNG sequence/atlas for native Windows overlay only after an approved rig exists. See [animation pipeline reset](ANIMATION_PIPELINE_RESET.md).
+
 ## Key decision
 Navin's Pet is a **new and independent** project. Do not add, maintain or merge Navin's Pet source into any earlier pet reminder repository. Do not reuse previous PetPing walking experiments that looked unnatural. We are only carrying forward human learning, product requirements, and separately authored original artwork; we are not importing existing app data or past implementations.
 
