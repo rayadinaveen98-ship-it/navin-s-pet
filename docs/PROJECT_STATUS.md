@@ -58,3 +58,14 @@ Repository initialized with phase-1 specification and draft SVG. Project is read
 - See `docs/MOTION_PROTOTYPE_V02.md` for caveats, exact scope, numerical verification and next tasks.
 - **Not yet accepted as final art/animation:** masking from flat art leaves potential fine fringe; blink, head movement, breathing, walking, natural voice and actual WPF app still pending.
 - Original approved concept sheet and demo binaries are in the conversation artifact ZIP, NOT tracked as GitHub binary assets yet.
+
+
+## 2026-10-19 — Concept 3 complete idle proof V03
+
+**Completed a 9.00-second playable offline prototype** from the user-approved Concept 3 puppy. Generated MP4 (H.264, 760x930, 30 fps, 270 frames), GIF, visual-QC contact sheet, blink-QC still, and a verified ZIP with the **actual runnable Python prototype sources**, original approved image, and media. Source/media bundle is attached in the relevant ChatGPT conversation, not yet committed as binary assets.
+
+The timed scene combines three 160–180 ms reconstructed eyelid blinks, very small rigid head rotations, the v02 fixed-shape rotating tail, and subtle chest light variation. Paws remain mostly stationary; no walking, natural speech, real Windows overlay, completed rig or installer exists.
+
+**Important quality gate remains open:** Blink reconstruction looks soft/painted over, rather than professionally layered; fur seam and occlusion from the flattened source image may be imperfect. Render feasibility does not mean the fully lifelike character goal is achieved. Do not declare the idle animation visually approved until user acceptance. Next: hand-authored eyelid, under-head, under-tail and body layers consistent with locked Concept 3, then re-render and integrate into Windows.
+
+See [idle V03 report](IDLE_MOTION_V03_REPORT.md) for precise limitations, QA and the path forward. All development stays solely in this repository.
