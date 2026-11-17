@@ -15,6 +15,19 @@
 
 See [Animation Pipeline Reset](ANIMATION_PIPELINE_RESET.md).
 
+
+## Stage 03 continuation — source and tooling reality check (17 November 2026)
+- [x] Audit that earlier editable vector `puppy-side-rig.svg` is only a draft, **not** the user-locked Concept 3 master.
+- [x] Define independent part/layer naming, source hash, common transparent canvas and pivot contract: [Stage 03 Art Handoff](STAGE03_ART_HANDOFF.md).
+- [x] Write a fail-closed machine-readable manifest, structural validator and unit tests; production mode deliberately **must fail** until real approved art/source is supplied.
+- [x] Check commercial trial limitations and recommend a zero-cost technical pilot first: [Stage 03 Tool Pilot](STAGE03_TOOL_PILOT.md). Moho Pro trial cannot import external art or export animation; Spine trial cannot save/export.
+- [ ] Confirm the **exact approved Concept 3 high-resolution source** and provenance/permission before reproducing or committing art.
+- [ ] Paint a faithful editable layered master with truly hand-authored hidden geometry and eye/mouth switches; run manual cross-scale art review.
+- [ ] Rig and record an approved 3–5s real idle, then working quadruped gait; use 1x/0.25x visual acceptance gates.
+- [ ] Export PNG with actual alpha and verify in Windows WPF before any user-installable claim.
+
+**Governance:** The 17 November contract and tests are preparatory work only, not Phase 1 art completion, a working Windows app or a release. All changes remain in an isolated review PR until approved.
+
 ## Phase 1 — Original puppy art foundation
 - [x] Lock project identity and core experience in independent repository.
 - [x] Product/architecture/quality specifications drafted.
