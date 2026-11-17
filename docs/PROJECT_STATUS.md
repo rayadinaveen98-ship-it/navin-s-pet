@@ -83,3 +83,12 @@ See [idle V03 report](IDLE_MOTION_V03_REPORT.md) for precise limitations, QA and
 - Reproducible standalone rendering script, exact reference sheet, video/GIF and QC images provided in conversation ZIP: \`Navins_Pet_Concept3_Facial_V04_Source_and_Preview.zip\`, CRC verified, SHA256 \`b73dc6524b073cceb801c0e38e184e562d25fab2905d66ffa024151575ac5cf6\`.
 - Source reusable eyelid pose tool now committed to \`tools/motion/eyelid_pose_v04.py\`. Technical report at [V04 report](IDLE_MOTION_V04_REPORT.md).
 - **Art acceptance still open:** eyelids are fur-texture compositing from a flat sheet, not properly artist-painted separate rig parts. No real WPF animation, walking, speech or installer claim. Need art segmentation and real desktop proof after review.
+
+## 2026-11-17 — Stage 03 rig-readiness preparation (isolated review branch)
+**State:** Prepared for review; **not merged into main** and **not a functioning app**.
+- Audit confirmed the repository contains the earlier draft SVG and V02/V03/V04 experimental scripts/specifications, but **not** the standalone approved Concept 3 production master or editable layered artwork.
+- Wrote an explicit Concept 3 21-layer handoff inventory, provisional manifest and a dependency-free validator. **Structure mode** is designed to pass on the unfilled manifest; **production mode intentionally fails** until the exact reference, provenance, layer exports/pivots and documented visual acceptance exist.
+- Documented no-cost Krita + Blender **pilot proposal**. Checked official commercial tool trial restrictions; no paid licenses approved. No actual rig/export test or physical Windows validation has been performed in this stage.
+- Art/tool decision documents: [Stage 03 art handoff](STAGE03_ART_HANDOFF.md), [Stage 03 tool pilot](STAGE03_TOOL_PILOT.md).
+- **Next:** recover/confirm the exact user-approved Concept 3 master and create original painting-ready independent art layers; do not recycle rejected flat-image warping or change the design.
+- **Safety:** PetPing untouched, no releases, no production code or UI changes. Stage 03 work is review-only pending CI evidence and approval.
