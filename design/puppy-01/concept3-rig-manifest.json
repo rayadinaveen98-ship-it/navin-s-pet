@@ -1,0 +1,147 @@
+{
+  "schema": "navins-pet/concept3-rig-assets/v1",
+  "character_id": "puppy-concept3",
+  "purpose": "STAGE03 CONTRACT ONLY - NO APPROVED ANIMATION OR LAYERED ART COMMITTED",
+  "reference": {
+    "source_file": null,
+    "sha256": null,
+    "design_lock": "Concept 3 visual identity approved; source master not present in repository"
+  },
+  "canvas": {
+    "width": null,
+    "height": null
+  },
+  "art_approval": {
+    "layered_master_approved": false,
+    "review_evidence": null
+  },
+  "coordinate_system": "All layers share source canvas and origin (upper-left); pivots in source pixels",
+  "layers": [
+    {
+      "id": "ground-shadow",
+      "file": null,
+      "pivot": null,
+      "notes": "Screen-space anchor; not bound to torso"
+    },
+    {
+      "id": "tail-root-fill",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "tail",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "hindleg-far",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "foreleg-far",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "torso",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "neck-backfill",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "hindleg-near",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "foreleg-near",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "head",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "ear-far",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "ear-near",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "eyes-open",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "eyes-half",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "eyes-closed",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "brow-left",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "brow-right",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "mouth-neutral",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "mouth-small",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "mouth-open",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    },
+    {
+      "id": "collar-tag",
+      "file": null,
+      "pivot": null,
+      "notes": ""
+    }
+  ]
+}
