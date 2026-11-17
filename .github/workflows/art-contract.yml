@@ -1,0 +1,31 @@
+name: Stage 03 Art Contract
+
+on:
+  pull_request:
+    paths:
+      - 'design/puppy-01/concept3-rig-manifest.json'
+      - 'tools/art/**'
+      - '.github/workflows/art-contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  manifest-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python version
+        run: python3 --version
+      - name: Check structure mode
+        run: python3 tools/art/validate_concept3_assets.py --mode structure
+      - name: Verify the incomplete production manifest is blocked
+        run: |
+          if python3 tools/art/validate_concept3_assets.py --mode production; then
+            echo "Unexpected PASS: unfinished art must not be accepted"
+            exit 1
+          fi
+          echo "Expected FAIL: unavailable Concept 3 master and layer assets are blocked"
+      - name: Run art contract unit tests
+        run: python3 -m unittest discover -s tools/art -p 'test_*.py' -v
